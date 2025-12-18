@@ -54,6 +54,7 @@ export const formConfig = (configs) => {
     formEl.addEventListener("submit", (e) => {
       e.preventDefault();
       validateFieldAll();
+      // Bu kisimdan sonrasini kodu okuyup anlayarak hallede bilirsiniz. Kucuk bir task)
     });
 
     Object.keys(cfg.rules).forEach((name) => {
